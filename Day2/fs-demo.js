@@ -1,1 +1,0 @@
-const fs = require('fs')// fs.readFile('./Hello.txt', (err, data) => {//     console.log('Error :: ', err)//     // console.log(`Data ::  ${data}`)//     console.log('Data :: ', data.toString())// })try {    const data = fs.readFileSync('./Hello.txt')    console.log('Data :: ' + data)    } catch (e) {    console.log(e)}console.log('After Read File.')
