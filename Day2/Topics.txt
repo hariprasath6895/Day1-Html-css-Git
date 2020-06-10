@@ -1,0 +1,82 @@
+- Intro To NodeJS
+------------------
+- JavaScript Run-time used to create Network Apps
+- Built on V8 JavaScript Engine and Lib UV
+
+NodeJS: https://nodejs.org/en/
+NPM: https://www.npmjs.com/
+
+HTTP Verbs: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+
+NodeJS Identifiers Available:
+-----------------------------
+__filename
+__dirname
+console
+process
+
+- Built-in Modules
+-------------------
+    - fs
+        - readFile()
+        - readFileSync()
+        
+    - path
+        path.join()
+        
+    - http - https://nodejs.org/api/http.html
+        - req
+            req.url
+        - res
+            res.end()
+            res.setHeader()
+    
+- Third-party Modules
+----------------------
+    - nodemon
+    - express
+        - res
+            res.send()
+            res.sendFile()
+
+- JavaScript
+------------------
+Normal JavaScript Function: function() {} //es5
+Fat Arrow Function: () => {} //es6
+Template String: `${}` //es6
+Datatypes: number, string, boolean, undefined, null, object, array
+var vs let - let is block scoped and var is not block scoped
+             both var and let are functionally scoped
+             var is es5 and let/const are es6 keywords
+Promises - es6 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+    - resolve - .then()
+    - reject  - .catch()
+Async/Await - es6
+setInterval() - es5
+setTimeout() - es5
+
+clearInterval()
+clearTimeout()
+
+AJAX - Asynchronous JavaScript and XML
+
+ES6 Features: http://es6-features.org/#Constants
+
+Asynchronous programming:
+-----------------------------
+    - Callbacks
+    - Promises
+    - Observables (http://reactivex.io/)
+
+- Middleware:
+  -----------
+    function(req, res, next) {
+    
+    }
+    
+Agenda
+--------
+- reading a file with callback and without callback
+- Set Timeout Demo
+- Async programming in JavaScript (Promises)
+- Starting API Server project (task-manager-api) - http, express
